@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.nieldcskinrepo" name="NIELDC KODI Skin Repository" version="1.0.2" provider-name="nieldc">
-	<extension point="xbmc.addon.repository" name="NIELDC KODI Skin Repository">
-		<info compressed="false">https://raw.githubusercontent.com/nieldc/skinrepo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/nieldc/skinrepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/nieldc/skinrepo/master/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>My KODI Skin Repository</summary>
-		<description>My KODI Skin Repository</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="resource.images.skinbackgrounds.pinoytv" name="Skin Backgrounds - Pinoy TV" version="1.0.1" provider-name="Nieldc">
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
