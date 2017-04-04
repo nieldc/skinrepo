@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.nieldcskinrepo" name="NIELDC KODI Skin Repository" version="1.0.1" provider-name="nieldc">
+	<extension point="xbmc.addon.repository" name="NIELDC KODI Skin Repository">
+		<info compressed="false">https://dl.dropboxusercontent.com/u/62302783/NieldcSkinRepo/addons.xml</info>
+		<checksum>https://dl.dropboxusercontent.com/u/62302783/NieldcSkinRepo/addons.xml.md5</checksum>
+		<datadir zip="true">https://dl.dropboxusercontent.com/u/62302783/NieldcSkinRepo/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>My KODI Skin Repository</summary>
+		<description>My KODI Skin Repository</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="resource.images.skinbackgrounds.pinoytv" name="Skin Backgrounds - Pinoy TV" version="1.0.1" provider-name="Nieldc">
+	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Skin backgrounds Pack - Pinoy TV</summary>
+		<description lang="en">Skin backgrounds Pack - Pinoy TV</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="skin.estuary.ph" version="2.0.0A" name="Estuary with PinoyTV (WIP)" provider-name="Modded by: NIELDC | Developed by: phil65, Ichabod Fletchman">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">A more customizable Estuary skin with Pinoy TV for Kodi 17.</summary>
+		<summary lang="en_NZ">A more customizable Estuary skin with Pinoy TV for Kodi 17.</summary>
+		<summary lang="en_US">A more customizable Estuary skin with Pinoy TV for Kodi 17.</summary>
+		<description lang="en_GB">Estuary with PinoyTV is a customized version of Estuary, the default skin of kodi. It has an integrated PinoyTV and Exodus contents dedicated to all Kabayan Kodi users.</description>
+		<description lang="en_NZ">Estuary with PinoyTV is a customized version of Estuary, the default skin of kodi. It has an integrated PinoyTV and Exodus contents dedicated to all Kabayan Kodi users.</description>
+		<description lang="en_US">Estuary with PinoyTV is a customized version of Estuary, the default skin of kodi. It has an integrated PinoyTV and Exodus contents dedicated to all Kabayan Kodi users.</description>
+		<disclaimer lang="en_GB">Estuary with PinoyTV is compatible only to Kodi 17 and newer versions.</disclaimer>
+		<disclaimer lang="en_NZ">Estuary with PinoyTV is compatible only to Kodi 17 and newer versions.</disclaimer>
+		<disclaimer lang="en_US">Estuary with PinoyTV is compatible only to Kodi 17 and newer versions.</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<source>https://github.com/xbmc/skin.estuary/</source>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/screenshot-01.jpg</screenshot>
+				<screenshot>resources/screenshot-02.jpg</screenshot>
+				<screenshot>resources/screenshot-03.jpg</screenshot>
+				<screenshot>resources/screenshot-04.jpg</screenshot>
+				<screenshot>resources/screenshot-05.jpg</screenshot>
+				<screenshot>resources/screenshot-06.jpg</screenshot>
+				<screenshot>resources/screenshot-07.jpg</screenshot>
+				<screenshot>resources/screenshot-08.jpg</screenshot>
+			</assets>
+	</extension>
+</addon>
+</addons>
