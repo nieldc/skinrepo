@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.nieldcskinrepo" name="NIELDC KODI Skin Repository" version="1.0.1" provider-name="nieldc">
+<addon id="repository.nieldcskinrepo" name="NIELDC KODI Skin Repository" version="1.0.2" provider-name="nieldc">
 	<extension point="xbmc.addon.repository" name="NIELDC KODI Skin Repository">
-		<info compressed="false">https://dl.dropboxusercontent.com/u/62302783/NieldcSkinRepo/addons.xml</info>
-		<checksum>https://dl.dropboxusercontent.com/u/62302783/NieldcSkinRepo/addons.xml.md5</checksum>
-		<datadir zip="true">https://dl.dropboxusercontent.com/u/62302783/NieldcSkinRepo/zips</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/nieldc/skinrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/nieldc/skinrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/nieldc/skinrepo/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>My KODI Skin Repository</summary>
@@ -26,7 +26,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.ph" version="2.0.0A" name="Estuary with PinoyTV (WIP)" provider-name="Modded by: NIELDC | Developed by: phil65, Ichabod Fletchman">
+<addon id="skin.estuary.ph" version="2.0.0E" name="Estuary with PinoyTV (WIP)" provider-name="Modded by: NIELDC | Developed by: phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
