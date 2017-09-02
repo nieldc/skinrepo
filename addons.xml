@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="resource.images.skinbackgrounds.pinoytv" name="Skin Backgrounds - Pinoy TV" version="1.0.1" provider-name="Nieldc">
+<addon id="resource.images.skinbackgrounds.pinoytv" name="Skin Backgrounds - Pinoy TV" version="1.0.2" provider-name="Nieldc">
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
