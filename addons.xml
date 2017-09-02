@@ -12,30 +12,7 @@
 	</extension>
 </addon>
 
-<addon id="script.tvguide.nieldc" name="My TV-Guide" version="1.0.0" provider-name="NIELDC">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.simplejson" version="0.0.1"/>
-        <import addon="script.module.requests" version="0.0.1" />
-        <import addon="script.module.dateutil" version="0.0.1" />
-        <import addon="script.module.pil" />
-    </requires>
-    <extension point="xbmc.python.script" library="addon.py">
-            <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="login"/>
-    <extension point="xbmc.addon.metadata">
-        <description lang="en">My custom tv guide.</description>
-        <summary lang="en_gb"></summary>
-        <disclaimer lang="en">Based on the original TV Guide addon by twinther, FTV Guide, Midraal's fork and the excellent Primaeval's latest fork.</disclaimer>
-		<language></language>
-        <platform>all</platform>
-        <license>GPLv2</license>
-        <email>nieldc@live.com</email>
-    </extension>
-</addon>
-
-<addon id="skin.estuary.ph" version="2.0.0K" name="Pinoy Estuary" provider-name="Modded by: NIELDC | Developed by: phil65, Ichabod Fletchman">
+<addon id="skin.estuary.ph" version="2.0.0L" name="Pinoy Estuary" provider-name="Modded by: NIELDC | Developed by: phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
@@ -50,9 +27,9 @@
 		<summary lang="en_GB">A more customizable Estuary skin with Pinoy TV for Kodi 17.</summary>
 		<summary lang="en_NZ">A more customizable Estuary skin with Pinoy TV for Kodi 17.</summary>
 		<summary lang="en_US">A more customizable Estuary skin with Pinoy TV for Kodi 17.</summary>
-		<description lang="en_GB">Pinoy Estuary is a customized version of Estuary, the default skin of kodi. It has an integrated PinoyTV and Exodus contents dedicated to all Kabayan Kodi users.</description>
-		<description lang="en_NZ">Pinoy Estuary is a customized version of Estuary, the default skin of kodi. It has an integrated PinoyTV and Exodus contents dedicated to all Kabayan Kodi users.</description>
-		<description lang="en_US">Pinoy Estuary is a customized version of Estuary, the default skin of kodi. It has an integrated PinoyTV and Exodus contents dedicated to all Kabayan Kodi users.</description>
+		<description lang="en_GB">Pinoy Estuary is a customized version of Estuary, the default skin of kodi. It has an integrated PinoyTV and Covenant (Exodus) contents dedicated to all Kabayan Kodi users.</description>
+		<description lang="en_NZ">Pinoy Estuary is a customized version of Estuary, the default skin of kodi. It has an integrated PinoyTV and Covenant (Exodus) contents dedicated to all Kabayan Kodi users.</description>
+		<description lang="en_US">Pinoy Estuary is a customized version of Estuary, the default skin of kodi. It has an integrated PinoyTV and Covenant (Exodus) contents dedicated to all Kabayan Kodi users.</description>
 		<disclaimer lang="en_GB">Pinoy Estuary is compatible only to Kodi 17 and newer versions.</disclaimer>
 		<disclaimer lang="en_NZ">Pinoy Estuary is compatible only to Kodi 17 and newer versions.</disclaimer>
 		<disclaimer lang="en_US">Pinoy Estuary is compatible only to Kodi 17 and newer versions.</disclaimer>
