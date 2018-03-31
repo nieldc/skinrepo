@@ -12,7 +12,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.lite.ph" version="2.0.1" name="Pinoy Estuary Lite" provider-name="Modded by: NIELDC | Developed by: phil65, Ichabod Fletchman">
+<addon id="skin.estuary.lite.ph" version="2.0.4" name="Pinoy Estuary Lite" provider-name="Modded by: NIELDC | Developed by: phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
