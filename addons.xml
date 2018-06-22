@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="resource.images.skinbackgrounds.pinoytv" name="Skin Backgrounds - Pinoy TV" version="1.0.4" provider-name="Nieldc">
+<addon id="resource.images.skinbackgrounds.pinoytv" name="Skin Backgrounds - Pinoy TV" version="1.0.5" provider-name="Nieldc">
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
@@ -12,7 +12,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.lite.ph" version="2.0.4" name="Pinoy Estuary Lite" provider-name="Modded by: NIELDC | Developed by: phil65, Ichabod Fletchman">
+<addon id="skin.estuary.lite.ph" version="2.0.5" name="Pinoy Estuary Lite" provider-name="Modded by: NIELDC | Developed by: phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
